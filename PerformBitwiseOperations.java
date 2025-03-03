@@ -13,21 +13,21 @@ public class PerformBitwiseOperations {
 		int b = scan.nextInt();
 		
 		//Bitwise AND
-        System.out.println("a & b: " + (a & b));
-        //Bitwise OR
-        System.out.println("a | b: " + (a | b));
-        //Bitwise XOR
-        System.out.println("a ^ b: " + (a ^ b));
-        //Bitwise NOT
-        System.out.println("~a: " + (~a));
-        //Bitwise Left shift
-        System.out.println("a << 1: " + (a << 1));
-        //Bitwise Right shift
-        System.out.println("a >> 1: " + (a >> 1));
-        //Bitwise Unsigned right shift
-        System.out.println("a >>> 2: " + (a >>> 2));
+        	System.out.println("a & b: " + (a & b));
+        	//Bitwise OR
+        	System.out.println("a | b: " + (a | b));
+        	//Bitwise XOR
+        	System.out.println("a ^ b: " + (a ^ b));
+        	//Bitwise NOT
+        	System.out.println("~a: " + (~a));
+        	//Bitwise Left shift
+        	System.out.println("a << 1: " + (a << 1));
+        	//Bitwise Right shift
+        	System.out.println("a >> 1: " + (a >> 1));
+        	//Bitwise Unsigned right shift
+        	System.out.println("a >>> 2: " + (a >>> 2));
 
-	scan.close();
+		scan.close();
 	}
 
 }
