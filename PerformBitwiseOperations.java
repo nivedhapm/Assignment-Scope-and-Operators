@@ -27,6 +27,7 @@ public class PerformBitwiseOperations {
         //Bitwise Unsigned right shift
         System.out.println("a >>> 2: " + (a >>> 2));
 
+	scan.close();
 	}
 
 }
